@@ -12,5 +12,5 @@ var reverse = function(x) {
   if (result > max || result < min) {
     return 0
   }
-  return result
+  return result;
 };
