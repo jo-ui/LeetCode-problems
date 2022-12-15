@@ -10,7 +10,7 @@ var reverse = function(x) {
   const str = String(Math.abs(x)).split('').reverse().join('')
   const result =  isMinus ? Number(`-${str}`) : Number(str)
   if (result > max || result < min) {
-    return 0
+    return 0;
   }
   return result;
 };
