@@ -11,4 +11,4 @@ var searchInsert = function(nums, target) {
     else result = i
           }
     return result;
-};
+}
