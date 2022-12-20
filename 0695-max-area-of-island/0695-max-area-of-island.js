@@ -18,7 +18,7 @@ const maxAreaOfIsland = (grid = []) => {
       || j >= grid[i].length
       || grid[i][j] === 0
     ) {
-      return 0
+      return 0;
     }
     return 1 + aux(i + 1, j) + aux(i - 1, j) + aux(i, j - 1) + aux(i, j + 1)
   }
