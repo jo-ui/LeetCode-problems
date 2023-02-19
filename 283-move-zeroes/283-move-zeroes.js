@@ -6,7 +6,7 @@ const moveZeroes = function (nums) {
   let index = 0
   for (const num of nums) {
     if (num !== 0) {
-      nums[index++] = num
+      nums[index++] = num;
     }
   }
   while (index < nums.length) {
